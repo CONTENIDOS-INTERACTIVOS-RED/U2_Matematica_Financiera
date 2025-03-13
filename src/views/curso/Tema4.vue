@@ -3,6 +3,7 @@
   BannerInterno(:subTitulo="'4. Amortizaciones'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden.pb-0.pb-md-0
 
+  //
     .row.mb-4
       .col-lg-8
         p.mb-4 La amortización es un proceso financiero clave que consiste en la liquidación de una deuda mediante pagos periódicos que cubren tanto el capital como los intereses generados. Estos pagos, generalmente iguales o programados, según un esquema definido, se realizan en intervalos regulares, como mensual, trimestral o anualmente, y están diseñados para extinguir la deuda en un periodo de tiempo determinado. Este método no solo facilita el pago ordenado de obligaciones, sino que también asegura al acreedor la recuperación total del monto prestado y de los intereses acordados (Moreno & Castellanos, 2014).

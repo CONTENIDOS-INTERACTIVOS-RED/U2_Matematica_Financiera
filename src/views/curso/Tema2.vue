@@ -3,6 +3,8 @@
   BannerInterno(:subTitulo="'2. Flujos de efectivo'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+
+  //
     p.mb-4 Los flujos de efectivo son uno de los elementos más importantes en la gestión financiera de una empresa, proyecto o inversión, debido a que representan las entradas y salidas de dinero durante un periodo de tiempo determinado. Estas transacciones reflejan la capacidad de una entidad para generar efectivo, cumplir con sus obligaciones financieras, sostener sus operaciones y planificar para el futuro. Los flujos de efectivo son una medida crucial de la salud financiera, dado que muestran no solo cuánto dinero se está generando, sino también cómo se utiliza (Ortiz & Rendón, 2015).
 
     .row.mb-4.align-items-center

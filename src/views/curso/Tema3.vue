@@ -3,6 +3,7 @@
   BannerInterno(:subTitulo="'3. Anualidades'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+   // 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5
         .row.align-items-center.mb-4

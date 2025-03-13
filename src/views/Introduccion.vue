@@ -65,12 +65,5 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/intro/3.png",style="max-width: 400px;", data-aos="zoom-in")
     
-    .bg-full-width.bg-color-3
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/intro/3.png", style="max-width: 88px").mx-auto(data-aos="zoom-in")
-          .col-lg
-            p.mb-0(data-aos="fade-left") Para aprovechar al máximo esta unidad, se invita a los estudiantes a mantener un compromiso constante con las actividades propuestas y a revisar los materiales complementarios. La participación activa y el cumplimiento de los ejercicios permitirán consolidar las competencias necesarias para aplicar los conceptos financieros en contextos académicos y laborales.
-
+   
 </template>
