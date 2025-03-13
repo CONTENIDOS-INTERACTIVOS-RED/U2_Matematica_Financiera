@@ -130,162 +130,168 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Qué concepto refleja que el dinero tiene un valor diferente según el momento en que se recibe o utiliza?',
+            texto: '¿Qué representa una tasa de interés en las finanzas?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Tasa de descuento',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Valor futuro',
-                esCorrecta: false,
-              },
-              {
-                id: 'c',
-                texto: 'Valor temporal del dinero',
-                esCorrecta: true,
-              },
-              {
-                id: 'd',
-                texto: 'Costo de oportunidad',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto:
-              'El valor temporal del dinero reconoce la diferencia en el valor del dinero dependiendo del tiempo.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto: '¿Cuál es el propósito principal del valor presente?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Determinar el valor futuro de una inversión.',
+                texto: 'La cantidad de dinero prestado en un contrato.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
                 texto:
-                  'Evaluar proyectos de inversión descontando flujos futuros.',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Calcular intereses simples.',
+                  'El porcentaje aplicado para calcular intereses sobre un capital.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'La frecuencia de los pagos de una anualidad.',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Estimar amortizaciones mensuales.',
+                texto: 'La suma de los flujos de efectivo generados.',
                 esCorrecta: false,
               },
             ],
             mensaje_correcto:
-              'El valor presente permite evaluar proyectos al comparar flujos futuros en términos actuales.',
+              'La tasa de interés mide el costo del dinero en un préstamo o el rendimiento en una inversión.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué diferencia hay entre una tasa nominal y una tasa periódica?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'La tasa nominal incluye el impacto de la capitalización.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'La tasa periódica es mayor que la tasa nominal en todos los casos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'La tasa periódica se obtiene dividiendo la tasa nominal por el número de capitalizaciones anuales',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'No hay diferencia, son equivalentes.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'La tasa periódica descompone la tasa nominal anual en partes según la frecuencia de capitalización.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
-            texto: '¿Qué describe un flujo de efectivo de inversión?',
+            texto: '¿Qué define a las tasas de interés anticipadas?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Pagos a proveedores.',
+                texto: 'Los intereses se pagan al final del período.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Adquisición de maquinaria.',
+                texto:
+                  'Los intereses se calculan y pagan antes de que transcurra el período.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Emisión de acciones.',
+                texto: 'Son exclusivas para cuentas de ahorro.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Pagos de dividendos.',
+                texto: 'Solo se aplican a inversiones perpetuas.',
                 esCorrecta: false,
               },
             ],
             mensaje_correcto:
-              'Los flujos de inversión reflejan transacciones relacionadas con activos a largo plazo.',
+              'Las tasas anticipadas exigen el pago de intereses al inicio del período pactado.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto:
-              'En una anualidad anticipada, ¿cuándo se realizan los pagos?',
+            texto: '¿Qué representa el flujo de caja libre?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Al final de cada periodo.',
+                texto:
+                  'El dinero generado exclusivamente por actividades de financiamiento.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Al inicio de cada periodo.',
+                texto:
+                  'El efectivo disponible después de cubrir gastos operativos e inversiones.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'En intervalos irregulares.',
+                texto: 'Los ingresos netos obtenidos en un período fiscal.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Solo una vez al final.',
+                texto:
+                  'La rentabilidad neta de una empresa antes de impuestos.',
                 esCorrecta: false,
               },
             ],
             mensaje_correcto:
-              'En las anualidades anticipadas, los pagos se efectúan al comienzo de cada periodo.',
+              'El flujo de caja libre muestra cuánto efectivo queda disponible después de atender operaciones e inversiones necesarias.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
             texto:
-              '¿Qué ocurre con los intereses en una amortización constante?',
+              '¿Qué impacto tiene una mayor frecuencia de capitalización en una inversión?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Permanecen iguales en cada periodo.',
+                texto: 'Disminuye el monto total acumulado.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
                 texto:
-                  'Disminuyen progresivamente a medida que se reduce el saldo.',
+                  'Aumenta el monto acumulado debido al efecto del interés compuesto.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Aumentan proporcionalmente a los pagos.',
+                texto: 'No tiene impacto en el rendimiento de la inversión.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Se calculan únicamente al final del plazo.',
+                texto: 'Reduce el costo del préstamo para el prestatario.',
                 esCorrecta: false,
               },
             ],
             mensaje_correcto:
-              'En la amortización constante, los intereses disminuyen porque se calculan sobre un saldo de deuda cada vez menor.',
+              'Una mayor frecuencia de capitalización genera intereses más frecuentemente, aumentando el monto acumulado.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
