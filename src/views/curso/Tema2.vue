@@ -22,14 +22,14 @@
     
     p.mb-4 La tasa nominal (TN) es uno de los conceptos más comunes y fundamentales en el ámbito financiero y se utiliza ampliamente para expresar el costo o rendimiento de diversos instrumentos financieros. Esta tasa se presenta como un porcentaje anual y actúa como una referencia general para describir el interés asociado a préstamos, inversiones o cualquier otra operación financiera. Sin embargo, la tasa nominal no incluye el efecto acumulativo de la capitalización de intereses, lo que significa que no refleja el crecimiento real o el costo efectivo de una operación, especialmente cuando los intereses se capitalizan con mayor frecuencia que una vez al año (Naranjo Bermúdez, 2019).
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.order-1.order-lg-2
             h2.mb-4(data-aos="flip-up") Tasas nominales
             p.mb-4(data-aos="fade-right") En el PDF <b>Tasas nominales</b>, se exploran ejemplos prácticos que muestran su aplicación, destacando su relación con la frecuencia de capitalización y su diferencia con la tasa efectiva. Este contenido proporciona herramientas clave para analizar y comparar productos financieros, facilitando decisiones informadas en contextos financieros diversos.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -261,7 +261,7 @@
             h2.mb-4(data-aos="flip-up") Tasas periódicas
             p.mb-4(data-aos="fade-right") En el PDF <b>Tasas periódicas</b>, se presentan ejemplos prácticos que ilustran cómo calcular y aplicar esta tasa para determinar intereses en préstamos e inversiones, facilitando decisiones financieras más informadas. Este material destaca su relevancia en la planificación financiera y en la comparación de productos con diferentes frecuencias de capitalización.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

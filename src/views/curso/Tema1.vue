@@ -24,7 +24,7 @@
     
     p.mb-5 El interés simple es una de las formas más básicas y fundamentales para calcular el rendimiento generado por un capital inicial (C) durante un periodo de tiempo determinado. A diferencia del interés compuesto, el interés simple no toma en cuenta los intereses acumulados en periodos anteriores; en cambio, se calcula únicamente sobre el monto principal o capital inicial. Esto lo convierte en un método lineal y sencillo que es ampliamente utilizado en transacciones financieras de corto plazo o en situaciones donde los cálculos deben ser rápidos y directos (Miguel Seco & Miguel Solano, 2020).
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2

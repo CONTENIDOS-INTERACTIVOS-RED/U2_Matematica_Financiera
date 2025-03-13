@@ -28,14 +28,14 @@
               p.mb-0 La tasa de interés vencida es un concepto fundamental en el ámbito financiero, ampliamente utilizado en operaciones como préstamos, depósitos bancarios y otros instrumentos de ahorro e inversión.
         p(data-aos="fade-left") Este tipo de tasa se caracteriza por aplicarse sobre el capital al finalizar un periodo determinado, lo que significa que los intereses generados se calculan y pagan únicamente al término de ese intervalo de tiempo previamente acordado. Es el modelo más común y estándar en las finanzas debido a su simplicidad y claridad en la forma en que los intereses se acumulan y se liquidan.
       
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.order-1.order-lg-2
             h2.mb-4(data-aos="flip-up") Tasas de interés vencidas
             p.mb-4(data-aos="fade-right") En el PDF <b>Tasas de interés vencidas</b>, se presentan ejemplos prácticos que ilustran su aplicación en productos como préstamos, depósitos a plazo fijo y bonos, permitiendo a los usuarios comprender su funcionamiento, evaluar opciones financieras y tomar decisiones informadas para optimizar sus recursos.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -114,14 +114,14 @@
         p(data-aos="fade-left") La tasa de interés anticipada es un concepto financiero que se aplica en operaciones donde los intereses se calculan y se pagan al inicio del periodo pactado, antes que transcurra el tiempo correspondiente. Este esquema es diferente al de la tasa de interés vencida, dado que en lugar de liquidar los intereses al final del periodo, el prestatario o usuario realiza el pago por adelantado. Este modelo es menos común, pero tiene aplicaciones específicas en situaciones que requieren una mayor seguridad para el prestamista o proveedor del servicio.
     
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.order-1.order-lg-2
             h2.mb-4(data-aos="flip-up") Tasas de interés anticipadas
             p.mb-4(data-aos="fade-right") En el PDF <b>Tasas de interés anticipadas</b>, se analizan ejemplos prácticos que ilustran su aplicación en contextos como arrendamientos y operaciones de financiamiento, permitiendo comprender su impacto financiero y las decisiones estratégicas relacionadas.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_5.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
