@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La unidad 1: Valor del dinero en el tiempo, introduce los conceptos fundamentales de las matemáticas financieras, permitiendo comprender cómo el dinero cambia de valor con el tiempo y su impacto en la toma de decisiones económicas. A través del estudio del valor presente y futuro, los flujos de efectivo, las anualidades y los sistemas de amortización, los estudiantes desarrollarán habilidades clave para la evaluación de inversiones y la gestión financiera. Este enfoque integral facilita la aplicación de herramientas matemáticas en la planificación económica personal y profesional, proporcionando una base sólida para la toma de decisiones estratégicas en diversos contextos financieros.
+      p(data-aos="fade-up").mb-5 La unidad 2: Tasas de interés, introduce los conceptos fundamentales relacionados con la valoración del dinero a lo largo del tiempo y su impacto en decisiones financieras. A través del estudio de diferentes tipos de tasas de interés, los estudiantes desarrollarán habilidades para calcular y analizar el interés simple y compuesto, así como para comprender la relación entre tasas nominales, efectivas y periódicas. También se abordarán las tasas vencidas y anticipadas, permitiendo una visión integral sobre su aplicación en contextos como préstamos, inversiones y financiamiento. Este enfoque asegura que los estudiantes adquieran una base sólida en matemáticas financieras, facilitando su aplicación en escenarios reales de toma de decisiones económicas y optimización de recursos.
 
       .row.justify-content-center
         .col-lg-12.mb-5

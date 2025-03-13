@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde la antigüedad, el entendimiento del valor del dinero y su comportamiento en el tiempo ha sido clave para la toma de decisiones financieras. En esta unidad, exploraremos cómo los principios matemáticos aplicados al dinero pueden facilitar la planificación económica personal y profesional. Los conceptos de valor presente y futuro, junto con los flujos de efectivo y las anualidades, son herramientas esenciales para la evaluación de inversiones, el análisis de deudas y la gestión financiera estratégica.
+              p.descripcion.mb-4 Desde tiempos inmemoriales, el valor del dinero a lo largo del tiempo ha sido un tema fundamental para el progreso financiero. Las tasas de interés son la herramienta que permite cuantificar este valor, proporcionando una base para evaluar préstamos, inversiones y cualquier transacción económica. En esta unidad, se analizarán los tipos de tasas, su cálculo y las diferentes modalidades en que se presentan. Los estudiantes adquirirán habilidades esenciales para comprender cómo las tasas afectan la rentabilidad y el costo en contextos reales.
 
-              p #[b ¡Prepárese para descubrir cómo aplicar estas poderosas herramientas matemáticas a su vida diaria y profesional!]
+              p #[b ¡Prepárese para dominar las claves del análisis financiero con precisión y eficacia!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
