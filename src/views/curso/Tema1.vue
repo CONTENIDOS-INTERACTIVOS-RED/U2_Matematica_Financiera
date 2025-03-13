@@ -29,7 +29,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
             h2.mb-4(data-aos="flip-up") Interés simple
-            p.mb-4(data-aos="fade-right") En el PDF Interés simple, se presentan ejemplos prácticos que ilustran cómo aplicar esta herramienta en distintos escenarios financieros, desde préstamos personales hasta descuentos comerciales. Estos casos destacan la utilidad del interés simple para prever costos o rendimientos de manera clara, ideal en contextos donde no se busca la capitalización de intereses.
+            p.mb-4(data-aos="fade-right") En el PDF <b>Interés simple</b>, se presentan ejemplos prácticos que ilustran cómo aplicar esta herramienta en distintos escenarios financieros, desde préstamos personales hasta descuentos comerciales. Estos casos destacan la utilidad del interés simple para prever costos o rendimientos de manera clara, ideal en contextos donde no se busca la capitalización de intereses.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
