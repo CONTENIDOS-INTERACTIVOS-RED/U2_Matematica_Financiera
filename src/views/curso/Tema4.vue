@@ -20,7 +20,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/SiB3FFmDfhM?si=P8BwXyoHwIkgakSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -57,7 +57,7 @@
             h2.mb-4(data-aos="flip-up") Tipos de pagos y ejemplos
             p.mb-4(data-aos="fade-right") En el siguiente documento se detallan los principales tipos de anualidades, con ejemplos ampliamente desarrollados, para comprender mejor su aplicación práctica.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_6.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -143,12 +143,12 @@ export default {
                 id: 'b',
                 texto:
                   'El porcentaje aplicado para calcular intereses sobre un capital.',
-                esCorrecta: false,
+                esCorrecta: true,
               },
               {
                 id: 'c',
                 texto: 'La frecuencia de los pagos de una anualidad.',
-                esCorrecta: true,
+                esCorrecta: false,
               },
               {
                 id: 'd',
